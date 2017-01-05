@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		FF1873D81E1E92C8006A39F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1873D71E1E92C8006A39F7 /* AppDelegate.swift */; };
-		FF1873DA1E1E92C8006A39F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1873D91E1E92C8006A39F7 /* ViewController.swift */; };
+		FF1873DA1E1E92C8006A39F7 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1873D91E1E92C8006A39F7 /* FaceViewController.swift */; };
 		FF1873DD1E1E92C8006A39F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1873DB1E1E92C8006A39F7 /* Main.storyboard */; };
 		FF1873DF1E1E92C8006A39F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1873DE1E1E92C8006A39F7 /* Assets.xcassets */; };
 		FF1873E21E1E92C8006A39F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1873E01E1E92C8006A39F7 /* LaunchScreen.storyboard */; };
+		FF1873EB1E1E972A006A39F7 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1873EA1E1E972A006A39F7 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF1873D41E1E92C8006A39F7 /* Facelt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facelt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1873D71E1E92C8006A39F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF1873D91E1E92C8006A39F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF1873D91E1E92C8006A39F7 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		FF1873DC1E1E92C8006A39F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF1873DE1E1E92C8006A39F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF1873E11E1E92C8006A39F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF1873E31E1E92C8006A39F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1873EA1E1E972A006A39F7 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,10 @@
 		FF1873D61E1E92C8006A39F7 /* Facelt */ = {
 			isa = PBXGroup;
 			children = (
-				FF1873D91E1E92C8006A39F7 /* ViewController.swift */,
+				FF1873D91E1E92C8006A39F7 /* FaceViewController.swift */,
 				FF1873DB1E1E92C8006A39F7 /* Main.storyboard */,
 				FF1873E91E1E932F006A39F7 /* Supporting Files */,
+				FF1873EA1E1E972A006A39F7 /* FaceView.swift */,
 			);
 			path = Facelt;
 			sourceTree = "<group>";
@@ -145,8 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF1873DA1E1E92C8006A39F7 /* ViewController.swift in Sources */,
+				FF1873DA1E1E92C8006A39F7 /* FaceViewController.swift in Sources */,
 				FF1873D81E1E92C8006A39F7 /* AppDelegate.swift in Sources */,
+				FF1873EB1E1E972A006A39F7 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
