@@ -54,14 +54,22 @@
 		FF1873D61E1E92C8006A39F7 /* Facelt */ = {
 			isa = PBXGroup;
 			children = (
-				FF1873D71E1E92C8006A39F7 /* AppDelegate.swift */,
 				FF1873D91E1E92C8006A39F7 /* ViewController.swift */,
 				FF1873DB1E1E92C8006A39F7 /* Main.storyboard */,
+				FF1873E91E1E932F006A39F7 /* Supporting Files */,
+			);
+			path = Facelt;
+			sourceTree = "<group>";
+		};
+		FF1873E91E1E932F006A39F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF1873D71E1E92C8006A39F7 /* AppDelegate.swift */,
 				FF1873DE1E1E92C8006A39F7 /* Assets.xcassets */,
 				FF1873E01E1E92C8006A39F7 /* LaunchScreen.storyboard */,
 				FF1873E31E1E92C8006A39F7 /* Info.plist */,
 			);
-			path = Facelt;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
