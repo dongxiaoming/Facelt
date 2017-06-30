@@ -62,19 +62,19 @@ class FaceViewController: UIViewController {
     private var mouthCurvature = [FacialExpression.Mouth.Frown: -1.0, .Smirk: -0.5, .Neutral: 0.0, .Grin: 0.5, .Smile: 1.0]
     private var eyeBrowTilts = [FacialExpression.EyeBrows.Furrowed: -1.0, .Normal: 0.0, .Relaxed: 1.0]
     
-    func mouthSmiler() {
+    @objc func mouthSmiler() {
             facialExpression.mouth = facialExpression.mouth.happierMouth()
     }
     
-    func mouthSadder() {
+    @objc func mouthSadder() {
         facialExpression.mouth = facialExpression.mouth.sadderMouth()
     }
     
-    func relasedBrow() {
+    @objc func relasedBrow() {
         facialExpression.eyeBrows = facialExpression.eyeBrows.moreRelasedBrow()
     }
     
-    func furrowedBrow() {
+    @objc func furrowedBrow() {
         facialExpression.eyeBrows = facialExpression.eyeBrows.moreFurrowedVrow()
     }
     

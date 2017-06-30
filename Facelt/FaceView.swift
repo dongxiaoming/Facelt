@@ -64,7 +64,7 @@ class FaceView: UIView {
             arcCenter: midPoint,
             radius: radius,
             startAngle: 0.0,
-            endAngle: CGFloat(2*M_PI),
+            endAngle: CGFloat.pi * 2,
             clockwise: false)
         path.lineWidth = lineWidth
         return path
